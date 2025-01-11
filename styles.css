@@ -1,70 +1,76 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
-  
-  .section {
-    margin-bottom: 40px;
-  }
-  
-  .section-title {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
-  .image-container {
-    text-align: center;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  
-  .code-block {
-    background-color: #f0f0f0;
-    padding: 15px;
-    border-radius: 5px;
-    overflow-x: auto; 
-  }
-  
-  .code-block pre {
-    margin: 0;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #f2f2f2;
-  }
-  
-  /* Optional: Add some basic styling for links */
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #e0ffff; /* Light turquoise */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #006600; /* Dark green */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #c0ffee; /* Light green */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #008000; /* Green */
+}
+
+.image-container {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.code-block {
+  background-color: #90ee90; /* Light green */
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto; 
+}
+
+.code-block pre {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd; /* Keep table borders neutral */
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2; /* Keep table header background neutral */
+}
+
+/* Optional: Add some basic styling for links */
+a {
+  color: #008000; /* Green */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
