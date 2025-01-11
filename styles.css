@@ -5,6 +5,15 @@ body {
   background-color: #e0ffff; /* Light turquoise */
 }
 
+.title-box {
+  background-color: #008000; /* Green */
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
 h1 {
   text-align: center;
   margin-bottom: 20px;
