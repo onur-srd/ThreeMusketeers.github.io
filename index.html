@@ -48,23 +48,18 @@
       <div class="image-container">
         <img src="Images/polynomial.png" alt="yearly co2 emissions">
       <div class = "section">
-      </p>Now if we put 2050 in equation we will get CO2 per capita 6.22 tones.</p>
-
-        
+      </p>Now if we put 2050 in equation we will get CO2 per capita 6.22 tones for year 2050.</p>
       </div>
 
     <div class="section">
-      <h2>Code Examples</h2>
-      <p>Here are some code examples used in the project:</p>
-      <div class="code-block">
-        <pre><code>
-          # Python code for data loading and cleaning
-          import pandas as pd
-
-          data = pd.read_csv('climate_data.csv')
-          data.dropna(inplace=True) 
-        </code></pre>
-      </div>
+      
+      <p>Now our question is that the ratio that we mentioned before (electricity generation by renewable sources/total electricity generation) is have effect on CO2 emissions per capita and if it does, does it have a negative impact on climate or positive.
+        To understand that we put the ratio on x axis and CO2 emissions per capita on y axis for United State. Again we used the last 62 years data since we have investigated the time after The Clean Air Act.
+        And we also take the logarithm of y axis (CO2 per capita) to not get a negative value when we investigate what will be the CO2 emissions per capita if we can increase the ratio to 1. Which is producing electricity by using only renewable sources.
+      </p>
+      <div class="image-container">
+        <img src="Images/logaritmicscatter.png" alt="Ratio vs CO2 emissions per capita">
+      </div>  
     </div>
 
     <div class="section">
