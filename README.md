@@ -12,3 +12,10 @@ Topic of our project is renewable energy adoption and climate action. And our re
 * Population
 
 All the data is from ["Our World in Data"](https://ourworldindata.org/)
+
+# Group Members
+* Onur Sarıdoğan 121203077
+* Eylül Sessiz 121203040
+
+# Hosting
+https://onur-srd.github.io/ThreeMusketeers.github.io/
